@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body
+{
+    background-image:url(./bricks.jpg);
+    
+}
+h1
+{
+    color: aliceblue;
+    margin-left: 650px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.inputed
+{
+    padding: 20px;
+    font-weight: 800;
+    font-size: 500;
+    height: 30px;
+    width: 30%;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.todo-item
+{
+   
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 360px;
+}
+.button
+{
+    
+    margin-left: 500px;
+    justify-content: space-between;
+    width: 30%;
+    display: flex;
+    height: 30px;
+}
+
+.btn
+{
+    cursor: pointer;
+    width: 120px;
+    background: aquamarine;
+    border: 4px solid black;
+}
+.complete-btn
+{
+    cursor: pointer;
+    background-color: aqua;
+    margin-left: 278px;
+    height: 40px;
+    width: 85px;
+    border: solid 4px black;
+}
+.delete-btn
+{
+    cursor: pointer;
+    margin-top: 23px;
+    background-color: aqua;
+    margin-left: 100px;
+    height: 40px;
+    width: 85px;
+    border: solid 4px black;
+
+}
